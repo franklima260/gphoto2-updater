@@ -66,17 +66,17 @@ cd gphoto2-temp-folder
 
 echo 
 echo "-------------------------"
-echo "Downloading libusb 1.0.11"
+echo "Downloading libusb 1.0.17"
 echo "-------------------------"
 echo
 
-wget http://ftp.de.debian.org/debian/pool/main/libu/libusbx/libusbx_1.0.11.orig.tar.bz2
-tar xjvf libusbx_1.0.11.orig.tar.bz2
-cd libusbx-1.0.11/
+wget http://ftp.de.debian.org/debian/pool/main/libu/libusbx/libusbx_1.0.17.orig.tar.bz2
+tar xjvf libusbx_1.0.17.orig.tar.bz2
+cd libusbx-1.0.17/
 
 echo 
 echo "--------------------------------------"
-echo "Compiling and installing libusb 1.0.11"
+echo "Compiling and installing libusb 1.0.17"
 echo "--------------------------------------"
 
 ./configure
@@ -87,7 +87,7 @@ cd ..
 
 echo 
 echo "-------------------------"
-echo "Downloading libusb 1.0.11"
+echo "Downloading libusb 1.0.17"
 echo "-------------------------"
 echo
 
