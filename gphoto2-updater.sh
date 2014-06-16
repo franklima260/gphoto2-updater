@@ -32,6 +32,27 @@ if [ "$(whoami)" != "root" ]; then
 fi
 
 echo 
+echo "-------------------------"
+echo "Curent version of gPhoto2"
+echo "-------------------------"
+echo
+
+gPhoto2 --version
+
+echo 
+echo "------------------------"
+echo "Do you want to continue?"
+echo "------------------------"
+echo
+
+read -p "Y or N :" -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    exit 1
+fi
+
+echo 
 echo "----------------"
 echo "Updating sources"
 echo "----------------"
