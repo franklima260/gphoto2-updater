@@ -37,7 +37,7 @@ echo "Curent version of gPhoto2"
 echo "-------------------------"
 echo
 
-gPhoto2 --version
+gphoto2 --version
 
 echo 
 echo "------------------------"
